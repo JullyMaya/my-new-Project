@@ -1,11 +1,11 @@
 import React from 'react'
-
+import img from './assets/banner.jpg'
 const App = () => {
   return (
     <div>
     <section className="sub-header">
         <nav>
-            <a href="./aify.html"><img src="./aify-images/logo.image.png" alt=""/></a>
+            <img src={img} alt="Aify logo"/>
             <div className="nav-links" id="navLinks">
                 <i className="fa fa-times" onclick="hideMenu()"/>
             <ul>
@@ -29,7 +29,7 @@ const App = () => {
                 <a href="" className="hero-btn red-btn">EXPLORE NOW</a>
             </div>
             <div className="about-col">
-                <img src="./aify-images/about.image.png"/>
+                <img src={img} alt="About Us"/>
             </div>
         </div>
      </section>
